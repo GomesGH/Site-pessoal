@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+    background-image: url(./Img/rm218-bb-07.jpg);
+    background-size: 200%;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    margin: 0px;
+    font-size: x-large;
+}
+nav a{
+    text-decoration-line: none;
+    color: white;  
+}
+nav ul{   
+    text-align: center;
+}
+
+a:hover{
+   color:#3BF1F4 ; 
+}
+.cnt {
+    padding-right: 55px;
+    padding-bottom: 50px;
+    padding-top: px;
+}
+
+.cur {
+    padding-bottom: 20px;
+}
+
+.foto-perfil img{
+    width:190px;
+    height:190px;
+    margin:0px;
+    border-radius: 50%;
+    border: 5px solid #C0D9D9;
+}
+
+header .foto-perfil{
+    text-align: center;
+    justify-content: center;
+}
+
+header h1{
+    text-align: center;
+    padding-left: 15px;
+}
+
+.git img{
+    width: 60px;
+    height: 60px;
+}
+.whats img{
+    width: 60px;
+    height: 60px;
+}
+.insta img{
+    width: 60px;
+    height: 60px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 115px;
+    gap: 90px;
+}
+footer a{
+    text-decoration-line: none;
+    color: white;
+    padding-top: 20px;
+}
+
+@media (width < 900px){
+    .cur {
+        padding-right: 10px;
+    }
+    nav {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    footer {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0px;
+    }
+}
+@media (width < 769px){
+    html{
+        background-position: 100%;
+        max-height: 100%;
+        background-size: 400%;
+    }
+    nav {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    footer {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0px;
+    }
+}
+@media (width < 690px){
+    body {
+     background-size: 400%;
+    }
+    nav li{
+        font-size: 20px;
+        padding-right: 10px;
+        gap: 25px;
+    }
+    nav a {
+        padding-left: 5px;
+    }
+
+    .sbr {
+        margin: 0px;
+        padding-right: 10px;
+
+    }
+
+    .cnt{
+        padding-left: 40px;
+    }
+
+    .insta {
+        padding-right: 45px;
+    }
+
+    .insta-text {
+        padding-right: 45px;
+    }
+
+    footer {
+        gap: 30px;
+        max-height: 100%;
+        margin: 0px;
+        padding-right: 20px;
+    }
+}
+@media (width < 481px){
+    body {
+        background-size: 400%;
+       
+    }
+    nav li{
+        font-size: 15px;
+        padding-right: 20px;
+        gap: 0;
+    }
+    nav a {
+        padding-left: 5px;
+    }
+
+    .sbr {
+        margin: 0px;
+        padding-right: 10px;
+
+    }
+
+    .cnt{
+        padding-left: 40px;
+    }
+
+    .insta {
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    .insta-text {
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    footer a{
+        gap: 0px;
+        max-height: 50%;
+        margin: 0px;
+        padding-right: 10px;
+    }
+}
+@media (width < 430px){
+    body {
+        background-size: 1200%;
+        min-width: 80%;
+        max-width: 0px;
+    }
+    nav li{
+        font-size: 15px;
+        padding-right: 20px;
+        gap: 0;
+    }
+    nav a {
+        padding-left: 5px;
+    }
+
+    .sbr {
+        margin: 0px;
+        padding-right: 10px;
+
+    }
+
+    .cnt{
+        padding-left: 40px;
+    }
+
+    .insta {
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    .insta-text {
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    footer a{
+        gap: 0px;
+        max-height: 50%;
+        max-width: 0px;
+        margin: 0px;
+        padding-right: 20px;
+        display: none;
+    }
+}
